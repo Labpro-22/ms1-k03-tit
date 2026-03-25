@@ -40,3 +40,9 @@ launch app at emulator (or just open directly)
 ```
 adb shell monkey -p com.tit.nimons360 -c android.intent.category.LAUNCHER 1
 ```
+
+kotlin formatter
+```
+./gradlew spotlessApply
+./gradlew spotlessCheck
+```
